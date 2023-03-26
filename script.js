@@ -157,3 +157,22 @@ scissors.addEventListener("click",function () {
 
 
 
+
+
+// function game() {
+//   for (i = 0; i < rounds; i++){
+//     let playersChoice = prompt("What would you like to pick, Rock, Paper, or Scissors?");
+//     playersChoice = playersChoice.toLowerCase();
+//     computersChoice = getComputerChoice().toLowerCase();
+//     console.log(round(computersChoice, playersChoice))
+//     console.log(`Player: ${playerScore}\nComputer: ${computerScore}`);
+//   }
+//   if (playerScore > computerScore){
+//     console.log("You win the game!")
+//   }
+//   else if (computerScore > playerScore) {
+//     console.log("The computer beat you!")
+//   }
+// }
+
+// game()
