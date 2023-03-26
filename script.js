@@ -99,14 +99,19 @@ function removeImages () {
 function restart() {
   removeImages()
   let restartChoice = prompt("Would you like to restart?\nYes/No");
+  console.log(restartChoice)
   if (restartChoice) {
   restartChoice = restartChoice.toLowerCase();
-  if (restartChoice === "yes") {
+  if (restartChoice == "yes") {
     playerScore = 0;
     computerScore = 0;
-    rock.setAttribute("disabled",false);
-    paper.setAttribute("disabled",false);
-    scissors.setAttribute("disabled",false);
+    rock.removeAttribute("disabled");
+    paper.removeAttribute("disabled");
+    scissors.removeAttribute("disabled");
+    results.textContent = ""
+    pScore.textContent = ""
+    cScore.textContent = ""
+
 }
 }
 }
@@ -125,7 +130,6 @@ function playGame(choice) {
     else {
       results.textContent = "You Lose."
     }
-    console.log("testing")
 
     rock.setAttribute("disabled",true);
     paper.setAttribute("disabled",true);
