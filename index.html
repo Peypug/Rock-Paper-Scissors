@@ -2,7 +2,44 @@
 <html lang = "en">
   <head>
     <meta charset="utf-8">
-    <script src = "script.js"></script>
+    <script src = "script.js" defer></script>
     <link rel = "stylesheet" href = "styles.css">
   </head>
+  <body>
+
+    <div class = "top-row">
+      <div class = "player-score"></div>
+      <p class = "instructions">
+        Rock Paper Scissors Game Instructions:<br>
+        To play rock paper scissors you will need to pick either rock, paper, or scissors, and the computer will do the same.<br>
+        Rock will beat Scissors.<br>
+        Paper will beat Rock.<br>
+        Scissors will beat Paper.<br>
+        Have fun!<br>
+      </p>
+      <div class = "computer-score"></div>
+    </div>
+    <div class = "middle-row">
+      <div class = "player-image">
+        <img class = "player-rock-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296854_960_720.png" alt = "rock">
+        <img class = "player-paper-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296855_960_720.png" alt = "paper">
+        <img class = "player-scissors-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296853_960_720.png" alt = "scissors">
+      </div>
+      <div class = "buttons">
+        <button class = "rock">Rock</button>
+        <button class = "paper">Paper</button>
+        <button class = "scissors">Scissors</button>
+      </div>
+      <div class = "computer-image">
+        <img class = "computer-rock-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296854_960_720.png" alt = "rock">
+        <img class = "computer-paper-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296855_960_720.png" alt = "paper">
+        <img class = "computer-scissors-image" src = "https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296853_960_720.png" alt = "scissors">
+      </div>
+    </div>
+
+    <div class = "round-results">
+      <div class = "container"></div>
+    </div>
+
+  </body>
 </html>

@@ -1,0 +1,55 @@
+.top-row {
+  display: flex;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.instructions, .player-score, .computer-score {
+  border: 2px solid black;
+  width: 33%;
+  height: 150px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+.player-score, .computer-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.rock, .paper, .scissors {
+  height: 200px;
+  width: 20vw;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.middle-row {
+  display: flex;
+}
+.player-image, .computer-image {
+  height: auto;
+  width: 20vw;
+}
+img {
+  height: auto;
+  width: 20vw;
+}
+
+.round-results {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
